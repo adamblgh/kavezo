@@ -1,6 +1,12 @@
-body{
+.banner{
     background-image: url(../img/banner.jpg);
     height: 400px;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
+}
+body{
+    background-color: #fbefdb;
+    color: #1f5b25;
+    text-align: center;
 }

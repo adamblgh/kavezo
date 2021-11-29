@@ -10,10 +10,11 @@
 </head>
 <body>
     <div class="container-fluid">
+      <div class="banner">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <a class="navbar-brand " href="#">Lucky <img src="../kavezo/img/clover.svg" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
@@ -32,9 +33,99 @@
               </ul>
             </div>
           </nav>
-          <div class="banner">
+      </div>
+    </div>
 
+    <div class="container">
+      <h1 class="text-center p-5">Kávéfajták</h1>
+      <div class="row">
+        <div class="col-md-4 p-3">
+          <div class="card">
+            <img src="img/espresso.png" class="card-img-top" alt="espresso">
+            <div class="card-body">
+              <h5 class="card-title text-center"><a href="#" data-toggle="modal" data-target="#staticBackdrop">Espresso</a> </h5>
+            </div>
           </div>
+        </div>
+
+        <div class="col-md-4 p-3">
+          <div class="card">
+            <img src="img/americano.png" class="card-img-top" alt="Americano">
+            <div class="card-body">
+              <h5 class="card-title text-center">Americano</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 p-3">
+          <div class="card">
+            <img src="img/lungo.png" class="card-img-top" alt="Lungo">
+            <div class="card-body">
+              <h5 class="card-title text-center">Lungo</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 p-3">
+          <div class="card">
+            <img src="img/ristretto.png" class="card-img-top" alt="ristretto">
+            <div class="card-body">
+              <h5 class="card-title text-center">Ristretto</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 p-3">
+          <div class="card">
+            <img src="img/melange.png" class="card-img-top" alt="melange">
+            <div class="card-body">
+              <h5 class="card-title text-center">Melange</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 p-3">
+          <div class="card">
+            <img src="img/dopio.png" class="card-img-top" alt="dopio">
+            <div class="card-body">
+              <h5 class="card-title text-center">Dopio</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--MODAL-->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Részletes leírás</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-4">
+                  <img class="img-fluid rounded" src="../kavezo/img/espresso.png" alt="Espresso">
+                </div>
+
+                <div class="col-md-8">
+                  <p class="text-justify">Legtöbb kávés ital alapja. 7-11 gramm kávéból készítik, mely a tradicionális olasz sztenderd szerint 25-30 mp alatt folyik le. Jó elkészítve, tömör, mogyoróbarna krém fedezhető fel az ital tetején.</p>
+                  <p class="font-weight-bold text-left">Mennyisége: 30 ml.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Bezárás</button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
